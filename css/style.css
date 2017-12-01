@@ -14,7 +14,31 @@ html, body {
 
 #header {
 	height: 5%;
-	background-color: lightblue;
+}
+
+#header ul li{
+	display: inline;
+	float: right;
+	margin-top: 15px;
+	margin: 15px 15px 0 20px;
+}
+
+#header ul li a{
+	text-decoration: none;
+	color: gray;
+}
+
+#kruzics {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #7D58C1;
+	border-radius: 100%;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	margin-top: -6px;
 }
 
 #main {
@@ -68,7 +92,31 @@ html, body {
 
 .footer {
 	height: 5%;
-	background-color: lightgray;
-	border-top: 1px solid black;
+	background-color: #F2F2F2;
+	border-top: 1px solid lightgray;
+	line-height: 50px;
+	vertical-align: middle; 
 }
 
+.footer ul {
+	display: inline;
+}
+
+.footer ul li{
+	display: inline;
+}
+
+.footer a{
+	text-decoration: none;
+	margin-left: 20px;
+	color: gray;
+	font-size: 85%;
+}
+
+.footer a:last-child{
+	margin-right: 25px;
+}
+
+#rList{
+	float: right;
+}
