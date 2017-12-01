@@ -19,7 +19,51 @@ html, body {
 
 #main {
 	height: 85%;
-	background-color: lightyellow;
+}
+
+
+
+#main-content{
+	width: 50%;
+	position: relative;
+	margin: 0 auto;
+	top: 20%;
+	text-align: center;
+	font-size: 90%;
+}
+
+
+#main-content *{
+	margin-top: 10px;
+}
+
+#main-content img{
+	width: 45%;
+	position: relative;
+	bottom: 10px;
+}
+
+#main-content input{
+	top: 50px;
+	display: block;
+	margin: auto;
+	width: 85%;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid lightgray;
+}
+
+.button {
+	display: inline-block;
+	width: 20%;
+	height: 40px;
+	background-color: #F6F6F6;
+	border: none;
+	font-weight: bold;
+	color: gray;
+	position: relative;
+	top: 10px;
+	margin: 30px 5px 20px 0;
 }
 
 .footer {
@@ -27,3 +71,4 @@ html, body {
 	background-color: lightgray;
 	border-top: 1px solid black;
 }
+
